@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Panitikang Digital</title>
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* SECTION */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* COLORS */
+.blue { border-top: 6px solid #3498db; }
+.yellow { border-top: 6px solid #f1c40f; }
+.purple { border-top: 6px solid #8e44ad; }
+.red { border-top: 6px solid #e74c3c; }
+
+/* QR */
+.qr img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* BUTTON */
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+<h1>PANITIKANG DIGITAL</h1>
+<p>
+Ang Panitikang Digital ay isang makabagong paraan ng pag-aaral at pagpapalaganap ng panitikan 
+sa pamamagitan ng paggamit ng teknolohiya at digital platforms. Sa kasalukuyang panahon, 
+hindi na lamang limitado sa mga aklat at tradisyunal na pamamaraan ang pagkatuto, kundi 
+lumalawak ito sa paggamit ng social media, video content, at iba pang online resources.
+
+Layunin ng website na ito na ipakita kung paano nagiging mas epektibo, makabuluhan, at 
+interaktibo ang pag-aaral ng Panitikang Pilipino sa tulong ng teknolohiya. Ipinapakita rin 
+dito ang mga benepisyo, hamon, at papel ng mga guro, estudyante, at komunidad sa paggamit 
+ng digital platforms bilang daluyan ng kaalaman.
+
+Sa pamamagitan ng wastong paggamit ng teknolohiya, ang panitikan ay nagiging mas buhay, 
+mas nauunawaan, at mas napapahalagahan ng bagong henerasyon.
+</p>
+</div>
+
+<!-- CARDS -->
+<section>
+<h2>📚 Mga Kaalaman</h2>
+
+<div class="grid">
+
+<div class="card blue" data-aos="fade-up">
+<img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353">
+<div class="card-content">
+<h3>📖 Panitikan sa Digital na Panahon</h3>
+<p>
+Mas nagiging interesante ang panitikan sa pamamagitan ng digital platforms.<br><br>
+✔ Mas malinaw ang pag-unawa<br>
+✔ Mas engaging ang pagkatuto<br>
+✔ Mas naaabot ang kabataan<br><br>
+
+Ngunit may hamon:<br>
+• Mahinang internet<br>
+• Kakulangan sa gadget<br>
+• Kailangan ng tamang gabay<br><br>
+
+✔ Ang social media ay hindi lang libangan—ito ay kasangkapan sa pagkatuto.
+</p>
+</div>
+</div>
+
+<div class="card yellow" data-aos="fade-up">
+<img src="https://images.unsplash.com/photo-1606326608690-4e0281b1e588">
+<div class="card-content">
+<h3>🎓 Para sa Guro</h3>
+<p>
+Ang guro ay may mahalagang papel sa paggamit ng teknolohiya.<br><br>
+
+✔ TikTok - para sa maikling paliwanag<br>
+✔ YouTube - para sa mas malalim na talakayan<br>
+✔ Facebook - para sa diskusyon at kolaborasyon<br><br>
+
+Batay sa pananaliksik:<br>
+✔ Tumataas ang interes<br>
+✔ Mas nagiging epektibo ang pagtuturo<br>
+✔ Mas aktibo ang estudyante
+</p>
+</div>
+</div>
+
+<div class="card purple" data-aos="fade-up">
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
+<div class="card-content">
+<h3>📱 Para sa Estudyante</h3>
+<p>Hindi lang pang-entertainment ang social media...</p>
+</div>
+</div>
+
+<div class="card red" data-aos="fade-up">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+<div class="card-content">
+<h3>🌍 Para sa Komunidad</h3>
+<p>
+Edukasyon + Teknolohiya = Mas maliwanag na kinabukasan<br><br>
+
+✔ Nakakatulong sa pagkatuto<br>
+✔ Nagpapalawak ng kaalaman<br>
+✔ Nag-uugnay sa komunidad<br><br>
+
+Ngunit kailangan:<br>
+✔ Tamang paggamit<br>
+✔ Suporta ng paaralan<br>
+✔ Gabay ng guro<br><br>
+
+✔ Ang teknolohiya ay katuwang, hindi kapalit ng guro.
+</p>
+</div>
+</div>
+
+
+</div>
+</section>
+
+<!-- QR CODES -->
+<section>
+<h2>🎥 Mga Bidyo (Scan o Click)</h2>
+
+<div class="grid qr">
+
+<a href="https://www.facebook.com/watch/?v=318208943520569" target="_blank">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/watch/?v=318208943520569">
+</a>
+
+<a href="https://www.facebook.com/watch/?v=234670052056512" target="_blank">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/watch/?v=234670052056512">
+</a>
+
+<a href="https://www.facebook.com/watch/?v=206370238094827" target="_blank">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/watch/?v=206370238094827">
+</a>
+
+<a href="https://www.facebook.com/reel/311119697207235" target="_blank">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/reel/311119697207235">
+</a>
+
+</div>
+</section>
+
+<!-- DEPED SECTION -->
+<section>
+<h2>📖 Mga Mapagkakatiwalaang Sanggunian</h2>
+
+<div class="grid">
+
+<div class="card" data-aos="fade-right">
+<div class="card-content">
+<h3>🏫 Department of Education (DepEd)</h3>
+<p>
+Ang DepEd ay opisyal na ahensya ng pamahalaan na nagbibigay ng kurikulum, 
+learning materials, at mga gabay sa edukasyon sa Pilipinas. Ito ay isang 
+mapagkakatiwalaang sanggunian para sa pag-aaral ng Panitikang Pilipino.
+</p>
+<a class="btn" href="https://www.deped.gov.ph" target="_blank">Bisitahin ang DepEd</a>
+</div>
+</div>
+
+<div class="card" data-aos="fade-left">
+<div class="card-content">
+<h3>📚 DepEd Commons</h3>
+<p>
+Naglalaman ng libreng learning resources at modules para sa mga guro at estudyante.
+</p>
+<a class="btn" href="https://commons.deped.gov.ph" target="_blank">Bisitahin</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
